@@ -34,13 +34,18 @@ public class operartor {
         System.out.println("a^b        = "+ (a^b));
         System.out.println("a&b        = "+ (a&b));
         System.out.println("a|b        = "+ (a|b));
+        String binary = Integer.toBinaryString(a);
+        System.out.println("Bin(a)     = "+binary);
+        System.out.println("~a         = "+ (~a));
+        String Combinary = Integer.toBinaryString(~a);
+        System.out.println("Bin(~a)    = "+Combinary);
 
         System.out.println("a<b && a>b = "+ (a<b && a>b));
         System.out.println("a<b || a>b = " +(a<b || a>b));
         System.out.println("!(a<b)     = "+ !(a<b));
 
         System.out.println("a          = "+a);
-        System.out.println("a++        = "+ (a++) +"| ++a = " + (++a));
+        System.out.println("a++ = "+ (a++) +"| ++a = " + (++a));
     }
     
 }
