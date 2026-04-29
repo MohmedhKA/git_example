@@ -11,7 +11,7 @@ class Example{
     int a = 10;
     static int b = 30;
     void add(){
-        int a=50;
-        System.out.println(a);
+        final int a1 =10;
+        System.out.println(a1);
     }
 }
