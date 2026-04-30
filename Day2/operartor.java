@@ -1,3 +1,4 @@
+package Day2;
 public class operartor {
     public static void main(String[] args) {
         int a = 10;
