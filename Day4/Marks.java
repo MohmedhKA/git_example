@@ -10,6 +10,7 @@ public class Marks {
         int mark = sc.nextInt();
         if(mark>=40) System.out.println("Pass");
         else System.out.println("Failure!");
+        sc.close();
     }
     
 }

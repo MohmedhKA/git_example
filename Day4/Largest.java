@@ -14,6 +14,7 @@ public class Largest {
         if(n>m) System.out.println("n is largest");
         else if (n<m) System.out.println("m is largest");
         else System.out.println("n and m are equal");
+        sc.close();
     }
     
 }

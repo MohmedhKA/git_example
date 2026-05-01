@@ -15,5 +15,6 @@ public class loops {
             System.out.println(n);
             n = sc.nextInt();
         }
+        sc.close();
     }
 }
